@@ -1,0 +1,20 @@
+{
+  "name": "2-igniting-our-app",
+  "version": "1.0.0",
+  "description": "Igniting our app",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Suresh Javvadi",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
