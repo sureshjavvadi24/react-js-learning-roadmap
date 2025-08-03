@@ -100,4 +100,4 @@ const parent3 = React.createElement("div", { id: "parent3" }, [
 
 ---
 
-**For runnable React js examples, see the [Example Code](../../examples/basics/1hello-world).**
+**For runnable React js examples, see the [Example Code](../../examples/basics/1-hello-world).**
