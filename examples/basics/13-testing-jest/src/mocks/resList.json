@@ -1,0 +1,895 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "pageOffset": {
+      "nextOffset": "CJpqEJtYKID46enXxJKRdjDIDjgC",
+      "widgetOffset": {
+        "restaurantCountWidget": "",
+        "inlineFacetFilter": "",
+        "collectionV5RestaurantListWidget_SimRestoRelevance_food": "8",
+        "collectionV5MastheadWidget": ""
+      }
+    },
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.CollectionMasthead",
+            "collectionId": "83639",
+            "title": "Biryani",
+            "description": "Taste these delectable classics, delectable biryanis to make your day.",
+            "imageId": "COLLECTIONS/IMAGES/MERCH/2025/3/7/6b765643-8f10-4176-b1f4-5e096d4182c0_biryani nv (3) (1).png",
+            "aspectRatio": "3.44",
+            "cta": {
+              "link": "swiggy://collectionV2?collection_id=83639&tags=layout_CCS_Biryani,biryani,ads_pc_biryani",
+              "type": "collectionv2"
+            },
+            "type": "COLLECTION_MASTHEAD_TYPE_IMAGE_WITH_TEXT",
+            "count": "393 restaurants"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+            "sortConfigs": [
+              {
+                "key": "relevance",
+                "title": "Relevance (Default)",
+                "selected": true,
+                "defaultSelection": true
+              },
+              {
+                "key": "deliveryTimeAsc",
+                "title": "Delivery Time"
+              },
+              {
+                "key": "modelBasedRatingDesc",
+                "title": "Rating"
+              },
+              {
+                "key": "costForTwoAsc",
+                "title": "Cost: Low to High"
+              },
+              {
+                "key": "costForTwoDesc",
+                "title": "Cost: High to Low"
+              }
+            ],
+            "restaurantCount": 393,
+            "facetList": [
+              {
+                "label": "10 Mins Delivery",
+                "id": "isRestaurantBolt",
+                "selection": "SELECT_TYPE_SINGLESELECT",
+                "facetInfo": [
+                  {
+                    "label": "10 Mins Delivery",
+                    "id": "isRestaurantBoltfacetquery0",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_FLATTENED",
+                "subLabel": "Filterby",
+                "icon": "COLLECTIONS/IMAGES/MERCH/2024/12/18/4b2e8903-0e25-401b-8ede-088491b4cfa0_937977a3-b03b-4a9e-8b6a-24937664d1a9_pic.png",
+                "selectedIcon": "COLLECTIONS/IMAGES/MERCH/2024/12/26/3072d307-2f8e-471c-862d-d426fb93c0bf_4b2e8903-0e25-401b-8ede-088491b4cfa0_937977a3-b03b-4a9e-8b6a-24937664d1a9_pic.png"
+              },
+              {
+                "label": "Veg/Non-Veg",
+                "id": "isVeg",
+                "selection": "SELECT_TYPE_MULTISELECT",
+                "facetInfo": [
+                  {
+                    "label": "Non Veg",
+                    "id": "isVegfacetquery0",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Pure Veg",
+                    "id": "isVegfacetquery1",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_HALF_CARD",
+                "subLabel": "Filterby",
+                "openFilter": true
+              },
+              {
+                "label": "Ratings",
+                "id": "rating",
+                "selection": "SELECT_TYPE_MULTISELECT",
+                "facetInfo": [
+                  {
+                    "label": "Ratings",
+                    "id": "ratingfacetquery0",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Ratings 4.0+",
+                    "id": "ratingfacetquery1",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Ratings 4.5+",
+                    "id": "ratingfacetquery2",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_HALF_CARD",
+                "subLabel": "Filterby",
+                "openFilter": true
+              },
+              {
+                "label": "Delivery Time",
+                "id": "deliveryTime",
+                "selection": "SELECT_TYPE_MULTISELECT",
+                "facetInfo": [
+                  {
+                    "label": "Less than 30 mins",
+                    "id": "deliveryTimefacetquery0",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Less than 45 mins",
+                    "id": "deliveryTimefacetquery1",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_HALF_CARD",
+                "subLabel": "Filterby",
+                "openFilter": true
+              },
+              {
+                "label": "Cost For Two",
+                "id": "costForTwo",
+                "selection": "SELECT_TYPE_MULTISELECT",
+                "facetInfo": [
+                  {
+                    "label": "Less than Rs. 300",
+                    "id": "costForTwofacetquery0",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Rs.300 - Rs.600",
+                    "id": "costForTwofacetquery1",
+                    "analytics": {},
+                    "openFilter": true
+                  },
+                  {
+                    "label": "Greater than Rs. 600",
+                    "id": "costForTwofacetquery2",
+                    "analytics": {},
+                    "openFilter": true
+                  }
+                ],
+                "viewType": "VIEW_TYPE_HALF_CARD",
+                "subLabel": "Filterby",
+                "openFilter": true
+              }
+            ],
+            "widgetId": "inlineFacetFilter"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "widgetPadding": {
+                "left": 16,
+                "right": 16
+              },
+              "widgetTheme": {
+                "defaultMode": {
+                  "backgroundColour": "#FFFFFF",
+                  "theme": "THEME_TYPE_LIGHT"
+                },
+                "darkMode": {
+                  "backgroundColour": "#1B3028",
+                  "theme": "THEME_TYPE_DARK"
+                }
+              }
+            },
+            "id": "restaurantCountWidget",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                "text": "393 Restaurants to explore",
+                "headerStyling": {
+                  "textSize": 15,
+                  "textColor": "text_color_highest_emphasis",
+                  "textFontName": "FONT_NAME_HEADER_H5",
+                  "maxLines": 1
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "847177",
+              "name": "Box O' Mehfil",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/9/f248ef86-05ac-4fc8-af63-ce621213c8fb_33609dd3-2bf8-4339-9182-bc5bb95c3c67",
+              "locality": "Vinayak Nagar",
+              "areaName": "Gachibowli",
+              "costForTwo": "₹350 for two",
+              "cuisines": [
+                "North Indian",
+                "Chinese",
+                "Biryani",
+                "Snacks",
+                "Desserts"
+              ],
+              "avgRating": 4.2,
+              "parentId": "500399",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "5.7K+",
+              "promoted": true,
+              "adTrackingId": "cid=e37351ce-1ed5-4c36-a581-752de9bee251~p=1~adgrpid=e37351ce-1ed5-4c36-a581-752de9bee251#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=847177~plpr=COLLECTION~eid=33389b22-9b43-4aae-b942-44a5d3301328~srvts=1755933301355~collid=83639",
+              "sla": {
+                "deliveryTime": 29,
+                "lastMileTravel": 3.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "3.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-23 23:59:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹100 OFF",
+                "subHeader": "ABOVE ₹199",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "e37351ce-1ed5-4c36-a581-752de9bee251"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=847177&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "33040",
+              "name": "Shah Ghouse Hotel & Restaurant",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/21/072ce375-deab-4d01-a37c-911b57a1ddf3_c3a00879-35bf-4d68-bf78-d3fe7e46e624.jpeg",
+              "locality": "Gachibowli",
+              "areaName": "Gachibowli",
+              "costForTwo": "₹350 for two",
+              "cuisines": ["Biryani", "Chinese", "Mughlai", "Tandoor"],
+              "avgRating": 4.3,
+              "parentId": "19271",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "216K+",
+              "sla": {
+                "deliveryTime": 26,
+                "lastMileTravel": 3.6,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "3.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-23 23:59:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                    "description": "Delivery!"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "imageId": "Rxawards/_CATEGORY-Biryani.png",
+                          "description": "Delivery!"
+                        }
+                      }
+                    ]
+                  },
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹550 OFF",
+                "subHeader": "ABOVE ₹2999",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "3.8",
+                  "ratingCount": "49K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=33040&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "436805",
+              "name": "Lucky Multicuisine Restaurant",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/21/21a6f94c-83b4-48b7-ab69-fe00198d0241_43a2106c-7c2f-403b-bd87-c52ef5bb38b2.jpeg",
+              "locality": "Guttalabegumpet",
+              "areaName": "Madhapur",
+              "costForTwo": "₹400 for two",
+              "cuisines": [
+                "Biryani",
+                "North Indian",
+                "Chinese",
+                "Mughlai",
+                "Kebabs"
+              ],
+              "avgRating": 3.8,
+              "parentId": "18963",
+              "avgRatingString": "3.8",
+              "totalRatingsString": "46K+",
+              "promoted": true,
+              "adTrackingId": "cid=0852c5b2-343e-4a96-857f-7789cd1c4eb7~p=3~adgrpid=0852c5b2-343e-4a96-857f-7789cd1c4eb7#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=436805~plpr=COLLECTION~eid=18b308da-f04e-4bf3-8575-47cc7e526820~srvts=1755933301355~collid=83639",
+              "sla": {
+                "deliveryTime": 31,
+                "lastMileTravel": 3.7,
+                "serviceability": "SERVICEABLE",
+                "slaString": "30-35 mins",
+                "lastMileTravelString": "3.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-24 04:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textExtendedBadges": {},
+                  "textBased": {},
+                  "imageBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹79",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                },
+                "footerText": "5 DEALS LEFT",
+                "secondaryHeaderType": "SECONDARY_HEADER_TYPE_USAGE_LIMIT_OFFER"
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "3.6",
+                  "ratingCount": "5.1K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "0852c5b2-343e-4a96-857f-7789cd1c4eb7"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=436805&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "864018",
+              "name": "The Nawaabs Premium Express",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/11/30/43d4d172-7002-4af9-8ac7-bd9c5c2f5f11_2413a05b-6057-4c0e-8de5-b5b6ecf1266c.jpg_compressed",
+              "locality": "Serlingampally Circle No 20",
+              "areaName": "Gachibowli",
+              "costForTwo": "₹250 for two",
+              "cuisines": ["North Indian", "Biryani", "Kebabs"],
+              "avgRating": 4.3,
+              "parentId": "506691",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "3.2K+",
+              "sla": {
+                "deliveryTime": 27,
+                "lastMileTravel": 2.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "25-30 mins",
+                "lastMileTravelString": "2.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-23 23:45:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹550 OFF",
+                "subHeader": "ABOVE ₹2499",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=864018&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "248771",
+              "name": "Raju Gari Biryani",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2025/2/19/3353d459-aec5-455b-b2ed-aea5208c4a5c_e738178b-a7de-49f4-84b7-dbd008c2787e.jpeg",
+              "locality": "AYYAPA SOCIETY, MADHAPUR.",
+              "areaName": "Madhapur",
+              "costForTwo": "₹200 for two",
+              "cuisines": ["Biryani", "Snacks", "Chinese", "Mughlai"],
+              "avgRating": 3.9,
+              "parentId": "165947",
+              "avgRatingString": "3.9",
+              "totalRatingsString": "59K+",
+              "promoted": true,
+              "adTrackingId": "cid=132b9e63-dbc0-40a5-80ff-7b5398a4d174~p=4~adgrpid=132b9e63-dbc0-40a5-80ff-7b5398a4d174#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=248771~plpr=COLLECTION~eid=bbeb925d-a4c2-46d4-9e4f-94160bae1975~srvts=1755933301355~collid=83639",
+              "sla": {
+                "deliveryTime": 22,
+                "lastMileTravel": 3.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-30 00:00:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "₹125 OFF",
+                "subHeader": "ABOVE ₹249",
+                "discountTag": "FLAT DEAL",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "132b9e63-dbc0-40a5-80ff-7b5398a4d174"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=248771&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "1128",
+              "name": "Paradise Biryani",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/21/b103caae-0895-4e37-95b1-f69644703b1b_1128.jpg",
+              "locality": "Hitech City",
+              "areaName": "Hitech City",
+              "costForTwo": "₹400 for two",
+              "cuisines": [
+                "Biryani",
+                "Kebabs",
+                "North Indian",
+                "Hyderabadi",
+                "Rolls & Wraps"
+              ],
+              "avgRating": 4,
+              "parentId": "700",
+              "avgRatingString": "4.0",
+              "totalRatingsString": "148K+",
+              "sla": {
+                "deliveryTime": 23,
+                "lastMileTravel": 1.3,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "1.3 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-24 02:00:00",
+                "opened": true
+              },
+              "badges": {
+                "imageBadges": [
+                  {
+                    "imageId": "android/static-assets/icons/big_rx.png",
+                    "description": "bolt!"
+                  }
+                ]
+              },
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "imageBased": {
+                    "badgeObject": [
+                      {
+                        "attributes": {
+                          "imageId": "android/static-assets/icons/big_rx.png",
+                          "description": "bolt!"
+                        }
+                      }
+                    ]
+                  },
+                  "textExtendedBadges": {},
+                  "textBased": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹79",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "3.9",
+                  "ratingCount": "14K+"
+                },
+                "source": "GOOGLE",
+                "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=1128&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "762480",
+              "name": "Rayalaseema Spice",
+              "cloudinaryImageId": "FOOD_CATALOG/IMAGES/CMS/2024/7/9/a0117626-8d02-4efd-a030-d7b88e1e4318_02691506-1aee-4664-acb1-e4956a4d1b3e.jpg",
+              "locality": "Serlingampally Circle No 20",
+              "areaName": "Madhapur",
+              "costForTwo": "₹400 for two",
+              "cuisines": ["Biryani", "Chinese"],
+              "avgRating": 3.9,
+              "parentId": "22389",
+              "avgRatingString": "3.9",
+              "totalRatingsString": "3.9K+",
+              "promoted": true,
+              "adTrackingId": "cid=2060457e-5421-4400-9a1d-b4945dc2f9fe~p=6~adgrpid=2060457e-5421-4400-9a1d-b4945dc2f9fe#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=762480~plpr=COLLECTION~eid=3d0f04f0-0215-4547-af3e-dd9c71538dfb~srvts=1755933301355~collid=83639",
+              "sla": {
+                "deliveryTime": 25,
+                "lastMileTravel": 3.5,
+                "serviceability": "SERVICEABLE",
+                "slaString": "20-25 mins",
+                "lastMileTravelString": "3.5 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-08-23 23:55:00",
+                "opened": true
+              },
+              "badges": {},
+              "isOpen": true,
+              "type": "F",
+              "badgesV2": {
+                "entityBadges": {
+                  "textBased": {},
+                  "imageBased": {},
+                  "textExtendedBadges": {}
+                }
+              },
+              "aggregatedDiscountInfoV3": {
+                "header": "ITEMS",
+                "subHeader": "AT ₹109",
+                "logoCtx": {
+                  "text": "BENEFITS"
+                }
+              },
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "differentiatedUi": {
+                "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                "differentiatedUiMediaDetails": {
+                  "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                  "lottie": {},
+                  "video": {}
+                }
+              },
+              "reviewsSummary": {},
+              "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+              "restaurantOfferPresentationInfo": {},
+              "externalRatings": {
+                "aggregatedRating": {
+                  "rating": "--"
+                }
+              },
+              "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+              "campaignId": "2060457e-5421-4400-9a1d-b4945dc2f9fe"
+            },
+            "analytics": {},
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=762480&source=collection&query=Biryani",
+              "text": "RESTAURANT_MENU",
+              "type": "DEEPLINK"
+            },
+            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food"
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_ON_MENU_RETURN",
+            "sectionId": "MENU_RETURN_FOOD"
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "nextFetch": 3
+  },
+  "tid": "5363ef3e-1ab8-43ef-9aed-b8cacb244fca",
+  "sid": "mgcac2a1-9240-4199-9cc1-4893df447c97",
+  "deviceId": "1f47462f-6321-2c56-7fcf-335e6db585ed",
+  "csrfToken": "PB5eR0MOYhNK-vf6bqfKPu9hXeoBW58vK9m9BdH4"
+}
